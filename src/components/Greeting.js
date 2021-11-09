@@ -1,7 +1,16 @@
 import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { useEffect } from "react";
+import { getGreeting } from '../redux/greeting/greeting';
 
 const Greeting = () => {
-const message = 'The fake message';
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+        dispatch(getGreeting());
+      }, [dispatch]);
+
+const message = useSelector((state) => state.greetingReducer.greetings);
 
 return ( <div>
     <h1>
