@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Greeting from './components/Greeting';
 import { Provider } from 'react-redux';
+import Greeting from './components/Greeting';
 import store from './redux/configureStore';
 import './App.css';
 
@@ -9,7 +9,7 @@ function App() {
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Greeting />} />     
+          <Route path="/" element={<Greeting />} />
         </Routes>
       </BrowserRouter>
     </Provider>
