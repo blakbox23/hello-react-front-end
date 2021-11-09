@@ -1,5 +1,5 @@
 # hello-react-front-end
-This is the front-end of a project that displays random greetings. these greetings are received from this [back-end link](https://github.com/blakbox23/hello-rails-back-end). 
+This is the front-end of a project that displays random greetings. These greetings are received from this [back-end](https://github.com/blakbox23/hello-rails-back-end). 
 
 ## Built With
 - React
@@ -35,7 +35,7 @@ Make sure NOT to run this front-end part of the project on `port:3000` this port
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/blakbox23/hello-rails-back-end./issues).
+Feel free to check the [issues page](https://github.com/blakbox23/hello-react-front-end./issues).
 
 ## Show your support
 
