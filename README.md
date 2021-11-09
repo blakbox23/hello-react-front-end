@@ -5,9 +5,6 @@ This is the front-end of a project that displays random greetings. These greetin
 - React
 - Redux
 
-## FrontEnd Link
-[Front-end link](https://github.com/blakbox23/hello-rails-back-end)
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
